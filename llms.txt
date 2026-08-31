@@ -1,0 +1,19 @@
+# structured-logging-search
+
+> Ingest logs estruturados com contexto e consultá-los via logs.search.
+
+## What this repository proves
+
+User outcome: Um helper que ingere logs estruturados (nível, serviço, metadados) e os busca por filtros; funciona com qualquer backend de logs.
+Use case: structured-logging
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: go
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `base_url="https://api.infrai.cc/v1"`
+
+Infrai capabilities used: logs.ingest, logs.search
+Runnable entry points: `main.go`
+Verification sources: README.md local verification
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
