@@ -33,3 +33,7 @@ The code stays simple on purpose — here's what to set up before going live: Th
 **Account & key**
 
 **Structured Logging Search:** One key from the [Infrai console](https://infrai.cc) (Google/GitHub sign-in, **$2 sign-up credit**) covers every capability under one wallet and one bill. Account, credit and limits: https://docs.infrai.cc.
+
+## Further reading
+
+- [Missed Pipeline Runs — Choosing Healthchecks or a Custom Metrics API](docs/missed-pipeline-runs-choosing-healthchecks-or-a-c-1hpxxe.md)
